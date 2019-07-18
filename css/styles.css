@@ -1,0 +1,617 @@
+body{
+    
+    
+    background-image:url(../images/still-life-851328.jpg);
+    height: 1400px;
+    width: 100%;
+    background-size:100% 100%;
+    font-family: 'Lora', serif !important;
+    
+}
+
+
+
+
+.navbar-brand{
+    
+    height: 42px;
+    width: 48px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 100px;
+}
+
+.logoo{
+    background-image: url(../images/cis-150.png);
+    height: 42px;
+    width: 48px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    
+}
+
+
+
+.nn{
+    width: 100%;
+   
+    
+   
+}
+
+
+.navbar{
+
+    
+    padding-left: 600px;
+    
+}
+.nav-item{
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.nav-link {
+    color: sandybrown !important;
+    font-family: 'Lora', serif;
+
+}
+
+
+.card-body{
+    
+    position: absolute;
+    top: 110px;
+    left: 100px;
+    
+    color: #d28a52;
+    font-family: 'Lora', serif;
+    
+    
+}
+
+.sp{
+    font-weight: bold;
+    font-size:90px;
+}
+
+.spp{
+    font-size: 25px;
+   
+
+}
+
+
+
+
+/*
+.first{
+    position: absolute;
+    font-size: 40px;
+    top: 550px;
+    left: 180px;
+    color: black;
+    font-family: 'Lora', serif;
+    border: 1px solid #fff;
+    width: 190px;
+    height: 70px;
+    text-align: center;
+    background-color: #debf85;
+    
+    
+}
+
+
+
+
+.second{
+    position: absolute;
+    font-size: 40px;
+    top: 480px;
+    left: 371px;
+    color: black;
+    font-family: 'Lora', serif;
+    border: 1px solid #fff;
+    width: 190px;
+    height: 70px;
+    text-align: center;
+    background-color: #debf85;
+
+}
+
+
+.third{
+    position: absolute;
+    font-size: 40px;
+    top: 411px;
+    left: 560px;
+    color: black;
+    font-family: 'Lora', serif;
+    border: 1px solid #fff;
+    width: 190px;
+    height: 70px;
+    text-align: center;
+    background-color: #debf85;
+}
+
+
+.forth{
+    position: absolute;
+    font-size: 40px;
+    top: 350px;
+    left: 750px;
+    color: black;
+    font-family: 'Lora', serif;
+    border: 1px solid #fff;
+    width: auto;
+    height: auto;
+    text-align: center;
+    background-color: #debf85;
+}
+
+.first:hover , .second:hover , .third:hover , .forth:hover {
+    background-color: #d28a52;
+}
+
+*/
+
+
+.steps_item{
+    
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    width: 25%;
+    height: 100%;
+    float: left;
+    background-color: #debf85 ;
+    opacity: 0.9;
+    border-left: 1px solid #f3f1f2;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #151515;
+    outline: none;
+    
+    overflow-y: hidden;
+    top:240px;
+    left: 50px;
+    font-family: 'Lora', serif;
+}
+
+
+.steps_inside{
+    margin: 40px;
+
+    
+}
+
+
+
+.steps_item h5 {
+    
+display: inline-block;
+        margin: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+.steps_years{
+    font-size: 37px;
+    margin-top: 50px;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    color: #bd3738;
+    position: relative;
+    width: 100%;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    
+}
+
+.steps_years span {
+    position: absolute;
+    top: 6px;
+    left: auto;
+    margin-left: 3px;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: -0.3px;
+    display: inline-block;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #bd3738;
+    white-space: nowrap;
+}
+
+
+.steps_Arrow {
+    
+    margin-top: 30px;
+    position: relative;
+    height: 50px;
+    
+}
+
+
+ .steps_Arrow  , .steps_Arrow_line{
+    background: #fff;
+    position: absolute;
+    top: 11px;
+    width: 0px;
+    height: 0px;
+
+}
+
+.steps_arrow svg {
+    fill: #a8a8a8;
+}
+
+.icon_basic{
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+
+.steps_item:hover{
+    background-color: #d28a52;
+}
+
+
+
+#footer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 56px;
+    height: 100%;
+    background-color: #debf85;
+    z-index: 1;
+    
+}
+
+
+.fa-align-justify{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    color: sandybrown;
+}
+
+
+.fa-youtube{
+    position: absolute;
+    top:300px;
+    left: 30px;
+    
+}
+
+.fa-facebook-square{
+    position: absolute;
+    top:500px;
+    left: 30px;
+}
+
+.fa-instagram{
+    position: absolute;
+    top:100px;
+    left: 30px;
+   
+}
+
+
+.aaa{
+    position:absolute;
+    top: 500px;
+    right: 5px;
+    transform: rotate(270deg);
+    color: #3b5999;
+    font-family: 'Lora', serif;
+}
+
+
+
+.bbb{
+    position:absolute;
+    top: 300px;
+    right: 10px;
+    transform: rotate(270deg);
+    color: #cd201f;
+    font-family: 'Lora', serif;
+    
+}
+
+
+.ccc{
+    position:absolute;
+    top: 100px;
+    right: 5px;
+    transform: rotate(270deg);
+    color: #e4405f;
+    font-family: 'Lora', serif;
+}
+
+
+a.pl {
+    text-decoration: none;
+    color: red;
+}
+
+a.pll{
+    color: blue;
+    text-decoration: none;
+}
+
+a.plll{
+    color: #405DE6;
+    text-decoration: none;
+}
+
+
+#cq {
+    white-space: nowrap;
+}
+
+/*
+
+
+@media (max-width: 964px){
+    
+    .forth {
+        white-space: nowrap;
+    }
+    #pwe {
+      position: absolute;
+    left:-100px;
+    }
+   
+    
+}
+
+
+
+@media (max-width: 864px){
+    .first{
+        top: 300px;
+        left: 500px;
+    }
+    
+    .second{
+        top: 370px;
+        left: 500px;
+        
+    }
+    
+    .third{
+        top: 440px;
+        left: 500px;
+    }
+    
+    .forth{
+        
+        top: 510px;
+        left: 500px;
+    }
+    #pwe{
+        top: 167px;
+    }
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+.cs{
+    position: absolute;
+    font-size: 40px;
+    top: 350px;
+    left: 775px;
+    color: black;
+    font-family: 'Lora', serif;
+    border: 1px solid #fff;
+    width: auto;
+    height: auto;
+    text-align: center;
+    background-color: #debf85;
+    
+    
+    
+}
+
+
+
+
+
+.css{
+    position: absolute;
+    font-size: 40px;
+    top: 411px;
+    left: 560px;
+    color: black;
+    font-family: 'Lora', serif;
+    border: 1px solid #fff;
+    width: 215px;
+    height: 70px;
+    text-align: center;
+    background-color: #debf85;
+
+}
+
+
+.csss{
+     position: absolute;
+    font-size: 40px;
+    top: 480px;
+    left: 371px;
+    color: black;
+    font-family: 'Lora', serif;
+    border: 1px solid #fff;
+    width: 190px;
+    height: 70px;
+    text-align: center;
+    background-color: #debf85;
+    
+}
+
+
+
+.cssss{
+     position: absolute;
+    font-size: 40px;
+    top: 550px;
+    left: 180px;
+    color: black;
+    font-family: 'Lora', serif;
+    border: 1px solid #fff;
+    width: 190px;
+    height: 70px;
+    text-align: center;
+    background-color: #debf85;
+}
+
+
+
+
+
+.cs:hover , .css:hover , .csss:hover , .cssss:hover{
+    background-color: #d28a52;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+.cssss{
+    background-color: #debf85;
+   
+    padding: 20px 35px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+    font-family: 'Lora', serif;
+    border: 1px solid #fff;
+}
+
+
+
+
+
+.csss{
+    background-color: #debf85;
+   
+    padding: 20px 35px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+    font-family: 'Lora', serif;
+    border: 1px solid #fff;
+}
+
+
+
+.css{
+    background-color: #debf85;
+    
+    padding: 20px 35px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+    font-family: 'Lora', serif;
+    border: 1px solid #fff;
+}
+
+
+
+.cs{
+    background-color: #debf85;
+   
+    padding: 20px 35px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+    font-family: 'Lora', serif;
+    border: 1px solid #fff;
+}
+
+.cs:hover , .css:hover , .csss:hover , .cssss:hover{
+    background-color: #d28a52;
+}
+
+
+
+
+
+
+.fd{
+    margin-top: 418px;
+    margin-left: 135px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+@media (max-width: 991px){
+    
+    .navbar-toggler-icon{
+        background-color: #d28a52;
+        position: relative;
+        right:-190px;
+        
+    };
+    
+}
+
+
+@media (max-width: 840px){
+    
+    .navbar-toggler-icon{
+        background-color: #d28a52;
+        position: relative;
+        right:60px;
+        
+    };
+    
+}
